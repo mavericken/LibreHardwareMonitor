@@ -65,8 +65,6 @@ namespace OpenHardwareMonitor.Hardware
     void ResetMin();
     void ResetMax();
 
-    IEnumerable<SensorValue> Values { get; }
-
     IControl Control { get; }
   }
 
